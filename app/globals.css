@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input,button{
+    border:1px solid black;
+    border-radius: 5px;
+}
+button:active{
+    background-image: radial-gradient(circle at center, white 30px, lightgray);
+}
